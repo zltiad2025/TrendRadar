@@ -1,0 +1,164 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-12 21:43:54</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">课程 高考 大学 中考</td>
+                    <td class="count">15</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7515019063618407945/" target="_blank" class="news-link">网警：高考结束考生家长仍需警惕</a> [6] <font color='grey'>- 21时43分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7514642782200446987/" target="_blank" class="news-link">高考结束挑行李回家的女生婉拒资助</a> [27] <font color='grey'>- 21时43分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BD%91%E8%AD%A6%E6%8F%90%E9%86%92%EF%BC%9A%E9%AB%98%E8%80%83%E5%90%8E%E8%80%83%E7%94%9F%E5%AE%B6%E9%95%BF%E4%BB%8D%E9%9C%80%E8%AD%A6%E6%83%95" target="_blank" class="news-link">网警提醒：高考后考生家长仍需警惕</a> [6] <font color='grey'>- 21时43分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30971643" target="_blank" class="news-link">高考后挑行李回家的女生找到了：来自广西灌阳，学习很刻苦</a> [10] <font color='grey'>- 21时43分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30921734" target="_blank" class="news-link">肖凯已任华东政法大学党委副书记、校长</a> [13] <font color='grey'>- 21时43分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%830%E5%88%86%20%E9%82%A3%E8%83%BD%E5%AF%B9%E5%90%97" target="_blank" class="news-link">高考0分 那能对吗</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时43分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%A5%E8%87%AA13%E5%B9%B4%E5%89%8D%E7%9A%84%E9%AB%98%E8%80%83vlog" target="_blank" class="news-link">来自13年前的高考vlog</a> [7] <font color='grey'>- 21时43分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342761&amp;amp;topic_name=%E9%AB%98%E8%80%83%E5%AE%8C%E4%B9%B0%E7%94%B5%E8%84%91%E6%80%8E%E4%B9%88%E9%80%89" target="_blank" class="news-link">高考完买电脑怎么选</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时43分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342755&amp;amp;topic_name=%E9%AB%98%E8%80%83%E7%A4%BC%E7%89%A9%E6%98%AF%E4%B8%8D%E5%96%9C%E6%AC%A2%E7%9A%84%E6%89%8B%E6%9C%BA%E6%80%8E%E4%B9%88%E5%8A%9E" target="_blank" class="news-link">高考礼物是不喜欢的手机怎么办</a> [14] <font color='grey'>- 21时43分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342746&amp;amp;topic_name=%E9%AB%98%E8%80%83%E5%90%8E%E6%88%91%E5%86%B3%E5%AE%9A%E5%92%8C%E8%80%81%E5%B8%88%E5%A4%A7%E9%97%B9%E4%B8%80%E5%9C%BA" target="_blank" class="news-link">高考后我决定和老师大闹一场</a> [15] <font color='grey'>- 21时43分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342756&amp;amp;topic_name=%E5%A4%A7%E6%B9%BE%E5%8C%BA%E5%A4%A7%E5%AD%A6%E8%83%BD%E8%BE%BE%E5%88%B0%E4%BB%80%E4%B9%88%E6%B0%B4%E5%B9%B3" target="_blank" class="news-link">大湾区大学能达到什么水平</a> [24] <font color='grey'>- 21时43分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E7%BD%91%E8%AD%A6%E6%8F%90%E9%86%92%E9%AB%98%E8%80%83%E7%BB%93%E6%9D%9F%E4%BB%8D%E9%9C%80%E8%AD%A6%E6%83%95%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">网警提醒高考结束仍需警惕</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时43分</font><br>[douyin] <a href="https://www.douyin.com/hot/2127643" target="_blank" class="news-link">高考结束后的老师们</a> [22] <font color='grey'>- 21时43分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1916127014823359257" target="_blank" class="news-link">教育部拟同意设立大湾区大学等 10 所本科高校，推荐报考吗？这几所高校有哪些特点？</a> [7] <font color='grey'>- 21时43分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1916106504085411635" target="_blank" class="news-link">如何看待广西一女生高考结束后独自用扁担挑行李回家？</a> [14] <font color='grey'>- 21时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特朗普</td>
+                    <td class="count">9</td>
+                    <td class="percentage">3.53%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7514949179316260390/" target="_blank" class="news-link">中方回应“特朗普称美中达成协议”</a> [19] <font color='grey'>- 21时43分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3748948" target="_blank" class="news-link">“特马”互撕大反转：媒体称马斯克公开悔过前私下深夜致电特朗普，万斯是和解关键推手</a> [8] <font color='grey'>- 21时43分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30970818" target="_blank" class="news-link">马斯克与特朗普“握手言和”内幕曝光，和万斯有关</a> [7] <font color='grey'>- 21时43分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30966789" target="_blank" class="news-link">释疑｜加州“反骨”与美国的撕裂：特朗普“猛攻”洛杉矶背后</a> [8] <font color='grey'>- 21时43分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E4%BC%9A%E7%94%A8%E4%BB%80%E4%B9%88%E4%BA%A4%E6%8D%A2%E4%B8%AD%E5%9B%BD%E7%A8%80%E5%9C%9F" target="_blank" class="news-link">特朗普会用什么交换中国稀土</a> [12] <font color='grey'>- 21时43分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B4%9B%E6%9D%89%E7%9F%B6%E5%9B%A0%E4%BB%80%E4%B9%88%E5%8F%8D%E7%89%B9%E6%9C%97%E6%99%AE" target="_blank" class="news-link">洛杉矶因什么反特朗普</a> [13] <font color='grey'>- 21时43分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%A9%AC%E6%96%AF%E5%85%8B%E4%B8%BA%E4%BD%95%E7%AA%81%E7%84%B6%E5%BF%8F%E6%82%94" target="_blank" class="news-link">马斯克为何突然忏悔</a> [29] <font color='grey'>- 21时43分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2055536" target="_blank" class="news-link">特朗普称中方将提供稀土磁铁，外交部回应</a> [6] <font color='grey'>- 21时43分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342763&amp;amp;topic_name=%E9%A9%AC%E6%96%AF%E5%85%8B%E5%92%8C%E7%89%B9%E6%9C%97%E6%99%AE%E6%9C%89%E5%8F%AF%E8%83%BD%E5%92%8C%E5%A5%BD%E5%90%97" target="_blank" class="news-link">马斯克和特朗普有可能和好吗</a> [7] <font color='grey'>- 21时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能 自动驾驶 机器人</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7514953510014684682/" target="_blank" class="news-link">台网红馆长被大陆外卖机器人秀到了</a> [18] <font color='grey'>- 21时43分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7514991381597654539/" target="_blank" class="news-link">印度坠毁航班号为AI171</a> [23] <font color='grey'>- 21时43分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3748928" target="_blank" class="news-link">黄仁勋GTC大会演讲全文：量子计算正迎来拐点，计划在欧洲新建20家“人工智能工厂”</a> [6] <font color='grey'>- 21时43分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30967773" target="_blank" class="news-link">引入“黑名单”，规范AI直播！直播电商监督管理办法征求意见有哪些亮点</a> [16] <font color='grey'>- 21时43分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89%E5%85%A8%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E5%B0%86%E4%BA%A4%E4%BB%98" target="_blank" class="news-link">特斯拉全自动驾驶汽车将交付</a> [30] <font color='grey'>- 21时43分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%8D%B0%E5%BA%A6%E5%9D%A0%E6%AF%81%E8%88%AA%E7%8F%AD%E5%8F%B7%E4%B8%BAAI171%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">印度坠毁航班号为AI171</a> [28] <font color='grey'>- 21时43分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1915804517112471746" target="_blank" class="news-link">如何评价任正非在接受媒体采访时表示「人工智能可能是最后一次技术革命，中国也有优势」?</a> [17] <font color='grey'>- 21时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">淘宝 支付宝 余额宝 微信</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7514637498828537868/" target="_blank" class="news-link">淘宝一笔订单扣商家26笔服务费</a> [9] <font color='grey'>- 21时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPad%E8%A6%81%E5%8F%98%E6%88%90Mac%E4%BA%86%E5%90%97" target="_blank" class="news-link">iPad要变成Mac了吗</a> [10] <font color='grey'>- 21时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">天津银行 建设银行</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">世界汉语教学 语言交流合作中心 语合中心 国际汉语 汉语水平考试 语言学 留学 汉语桥</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">天津本地宝 梅江会展中心 国家会展中心</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">赤道几内亚 哈萨克斯坦 乌兹别克斯坦 大使</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">科技</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">核能</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">纳米 血管 营养 心脏</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
