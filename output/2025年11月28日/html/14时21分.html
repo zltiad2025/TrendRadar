@@ -1,0 +1,172 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 250</p><p>生成时间: 2025-11-28 14:21:00</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 自动驾驶 机器人 吉利 比亚迪</td>
+                    <td class="count">5</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760277" target="_blank" class="news-link">英伟达全员“AI化”，内部有人要求“少用AI”，黄仁勋直接发飙：“你疯了吗？”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时20分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760242" target="_blank" class="news-link">进军AI硬件市场！阿里夸克AI眼镜售价1899元起，搭载千问大模型、深度整合生态服务</a> [6] <font color='grey'>- 14时20分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E8%BF%98%E5%8E%9F%E9%A6%99%E6%B8%AF%E5%A4%A7%E5%9F%94%E7%81%AB%E7%81%BE" target="_blank" class="news-link">AI还原香港大埔火灾</a> [8] <font color='grey'>- 14时20分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2213363" target="_blank" class="news-link">【早报】北京：拟将大规模AI算力搬上太空；摩根大通唱多A股</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时20分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9B%E7%A7%B0%E6%89%80%E6%9C%89%E4%BA%A7%E4%B8%9A%E9%83%BD%E5%80%BC%E5%BE%97AI%E5%86%8D%E5%81%9A%E4%B8%80%E9%81%8D%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">雷军称所有产业都值得AI再做一遍</a> [10] <font color='grey'>- 14时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">汉语水平考试 语言学 留学 汉语桥 HSK 钟英华 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.4%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7577406633639247878/" target="_blank" class="news-link">我国教育发展答卷亮眼</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">华为 小米 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.4%</td>
+                    <td class="titles">[weibo] <a href="https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E7%BB%AD%E8%88%AA%E6%B5%8B%E8%AF%95%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">雷军回应小米汽车续航测试</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.4%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2213427" target="_blank" class="news-link">外资扎堆唱多！瑞银、富达国际齐发声：看好中国科技股</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">纳米 血管 营养 心脏</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.4%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1977236544629782086" target="_blank" class="news-link">麦当劳中国官网「营养计算器」长期低标多项产品的热量和营养成分，如何看待这一行为？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">课程 高考 大学 中考 小学</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.4%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1975862881565295598" target="_blank" class="news-link">大学生理发被收 1 万元，理发店称所有项目明码标价，能作为免责理由吗？消费者面对这种情况该如何维权？</a> [17] <font color='grey'>- 14时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">淘宝 支付宝 余额宝 微信</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">天津银行 建设银行 交通银行</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">世界汉语教学 语言交流合作中心 语合中心 国际汉语 国际中文</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">天津本地宝 梅江会展中心 国家会展中心</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">一带一路 非洲</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">赤道几内亚 哈萨克斯坦 乌兹别克斯坦 大使 外长</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">核能</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>15</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
